@@ -1,3 +1,64 @@
+*
+{
+  background-image: linear-gradient(to right, pink , skyblue,pink);
+}
+.main
+{
+  text-shadow: 0px 0px 5px grey;
+  text-align: center;
+  color: red;
+  animation: main1 3s infinite alternate;
+}
+@keyframes main1
+{
+  0%
+  {
+      transform:scaleX(0.5)
+
+  }
+}
+.information
+{
+  text-align: center;
+  color:darkviolet;
+}
+.button
+{
+  text-align: center;
+  width: 90px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: blue;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 45%;
+  /* align-items: center; */
+  animation: button 3s infinite alternate;
+}
+@keyframes button
+{
+  
+  0%
+  {
+      transform:skewX(-30deg)
+
+  }
+  100%
+  {
+      transform:skewX(30deg)
+  }
+}
+.space
+{
+  line-height: 80%;
+  text-align: center;
+  color:darkviolet;
+}
+
+
 .App {
   text-align: center;
 }
